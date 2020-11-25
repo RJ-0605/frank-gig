@@ -1,0 +1,48 @@
+
+
+
+nav  {
+		margin-top:1rem;
+		margin-left:5%;
+		border-bottom:1px solid gray;
+		width:90%;
+		}
+
+
+
+.OnheroNav {
+    width: 90%;
+    background-color: whitesmoke;
+    margin: 0 5%;
+    border:1px solid blue;
+    
+    position:absolute;
+    top:16rem;
+}
+
+li {   
+     display:inline;
+     
+     margin-top:1rem;
+     border-bottom:black;
+
+
+}
+
+ul {
+     display:flex;
+     justify-content:space-evenly;
+
+}
+
+.top-button { 
+		text-align:right;
+		
+}
+
+.buton{
+	margin:1rem 3rem 5rem 0rem;
+	margin-right:3rem;
+
+}
+
