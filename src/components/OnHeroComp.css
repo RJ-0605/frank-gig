@@ -1,48 +1,52 @@
-
-
-
-nav  {
-		margin-top:1rem;
-		margin-left:5%;
-		border-bottom:1px solid gray;
-		width:90%;
-		}
-
-
-
-.OnheroNav {
-    width: 90%;
-    background-color: whitesmoke;
-    margin: 0 5%;
-    border:1px solid blue;
-    
-    position:absolute;
-    top:16rem;
+.OnHeroNavContainer {
+	background-color: whitesmoke;
+	width: 85%;
+	margin: auto;
+	margin-top: -10rem;
 }
 
-li {   
-     display:inline;
-     
-     margin-top:1rem;
-     border-bottom:black;
-
-
+.OnHeroNavContainer nav {
+	padding: 0 10em;
 }
 
 ul {
-     display:flex;
-     justify-content:space-evenly;
-
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0;
 }
 
-.top-button { 
-		text-align:right;
-		
+.OnHeroNavContainer li:first-child {
+	border-bottom: 2px solid #333;
 }
 
-.buton{
-	margin:1rem 3rem 5rem 0rem;
-	margin-right:3rem;
-
+li {
+	font-size: 110%;
+	font-weight: 700;
+	flex-grow: 1;
+	text-align: center;
+	padding: 0.8em 0;
+	margin: 0;
+	border-bottom: 1px solid #ccc;
 }
 
+.top-button {
+	text-align: right;
+	padding: 3rem 12rem;
+}
+
+.buton {
+	border: none;
+	border-radius: .3rem;
+	padding: .8rem 1.2rem .8rem;
+	background-color: black;
+	color: #fff;
+	font-weight: 700
+}
+
+.buton img {
+	width: 1.5em;
+	margin-right: .3rem;
+	height: auto
+}

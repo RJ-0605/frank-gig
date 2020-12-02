@@ -1,37 +1,40 @@
 .Hero1 {
-    width: 100%;
-    display: flex;
-    background-color: #36096d;
-background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
-
+	padding: 3rem 5rem 10rem 4rem;
+	/* padding: 10rem; */
+	width: 100%;
+	height: 350px;
+	background-color: #36096d;
+	background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+}
+.Hero-content {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
 }
 
 .Hero-text {
-    width: 50%;
-    padding: 3rem 0  10rem 4rem;
-    color: white;
+	margin: 0;
+	color: white;
 }
 
 .Hero-text h3 {
-    font-size: 40px;
+	margin: 0;
+	font-size: 40px;
 }
 
-p {
-    font-size: 20px;
+.Hero-text p {
+	margin: 0;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
 }
 
-.Hero-button {
-    width: 50%;
-    margin: 5rem 5rem 0;
-    text-align: right;
-}
-
-.Hero-button button {
-    width: 8rem;
-    color: rgb(36, 36, 230);
-    background-color: white;
-    padding: .5rem;
-    border: none;
-    border-radius: 7px;
-
+.Hero1 button {
+	width: 8rem;
+	color: rgb(36, 36, 230);
+	background-color: white;
+	padding: .5rem;
+	border: none;
+	border-radius: .2rem;
+	margin-right: 1rem;
 }
