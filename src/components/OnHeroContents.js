@@ -1,130 +1,260 @@
-
-
-
-
 import React from 'react';
-
 import './OnheroContents.css';
-
-
 
 export default function OnHeroContents() {
 
-const lifestyle_p = {
-      marginTop:-2,
-      backgroundColor: "DodgerBlue",
-      padding: "10px",
-      fontFamily: "Arial"
-    };
+	return (
+		<>
+			<div className="maindiv-contents">
 
+				<h4 className="personal-title"> Personal information </h4>
 
+				<div className="persondiv">
+					<div className="persondivdiv">
+						<h5>Mobile Number</h5>
+						<p>002245</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Email</h5>
+						<p>rooney@email.com</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Nationality</h5>
+						<p>gambian</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Occupation</h5>
+						<p>er</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Date of Birth</h5>
+						<p>2020-05-09</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Gender</h5>
+						<p>male</p>
+					</div>
+				</div>
+			</div>
 
+			<div className="maindiv-contents">
+				<h4 className="personal-title"> Medical information </h4>
 
+				<table>
+					<tr className="head">
+						<th>SUFFER FROM</th>
+						<th>STATUS</th>
+						<th>YEAR OF DIAGNOSES</th>
+						<th>TYPE</th>
+						<th>MEDICATION</th>
+					</tr>
+					<tr>
+						<td> <span>diabetes</span></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><span>hypertension</span></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><span>thyroid</span></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
 
+				<div className="persondiv">
+					<div className="persondivdiv">
+						<h5>Food Allergies</h5>
+						<p>None</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Any other health problems?</h5>
+						<p>None</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>When was your last blood test?</h5>
+						<p>gambian</p>
+					</div>
+				</div>
 
-        return(
-        
-        	
-        			<>
-        
-        
-                <div className="maindiv-contents"> 
-                
-                <h2 className="personal-title"> Personal information </h2>
-                
-                <div className="persondiv">
-                			<div className="persondivdiv"><h3>Mobile Number</h3><p>002245</p></div>
-                			<div className="persondivdiv"><h3>Email</h3><p>rooney@email.com</p></div>
-                			<div className="persondivdiv"><h3>Nationality</h3><p>gambian</p></div>
-                			<div className="persondivdiv"><h3>Occupation</h3><p>er</p></div>
-                			<div className="persondivdiv"><h3>Date of Birth</h3><p>2020-05-09</p></div>
-                			<div className="persondivdiv"><h3>Gender</h3><p>male</p></div>
-                
-                </div>
-		
-                </div>
-                
-                <div className="maindiv-contents">
-                <h2 className="personal-title"> Medical information </h2>
-                <div className= "medi-info" >
-                		<ul className="medi-col" >
-                			<li>SUFFER FROM</li>
-                			<li>STATUS</li>
-                			<li>YEAR OF DIAGNOSES</li>
-                			<li>TYPE</li>
-                			<li>MEDICATION</li>
-                		</ul>
-                		<ul className="medi-row">
-                			<li>DIABETES</li>
-                			<li>HYPERTENSION</li>
-                			<li className="list">THYROID</li>
-                		</ul>
-                 </div>
-                 <div className="persondiv">
-                			<div className="persondivdiv"><h4>Food Allergies</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>Any other health problems?</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>When was your last blood test?</h4><p>gambian</p></div>
-                
-                </div>
-                
-                
-                </div>
-                
-                <div className="maindiv-contents">
-                <h2 className="personal-title"> Lifestyle information </h2>
-                 <div className="persondiv">
-                			<div className="persondivdiv"><h4>Previous Diet Plans</h4><p>No</p></div>
-                			<div className="persondivdiv"><h4>Skip Meals</h4><p>yes</p><p>yes</p></div>
-                			<div className="persondivdiv"><h4>Regular Breakfast</h4><p>No</p></div>
-                			
-                			<div className="persondivdiv"><h4>Snack</h4><p>No</p></div>
-                			<div className="persondivdiv"><h4>Food Cravings</h4><p>No</p></div>
-                			<div className="persondivdiv"><h4>Exercise</h4><p>No</p></div>
-                			
-                			<div className="persondivdiv"><h4>Smoking</h4><p>No</p></div>
-                			<div className="persondivdiv"><h4>Coffee</h4><p>No</p></div>
-                			<div className="persondivdiv"><h4>Alcohol intake</h4><p>No</p></div>
-                			
-                			<div className="persondivdiv"><h4>Litres of water per day</h4><p>20</p></div>
-                			<div className="persondivdiv"><h4>Breakfast</h4><p>sdasdf</p></div>
-                			<div className="persondivdiv"><h4>Lunch</h4><p>fsdf</p></div>
-                			
-                			<div className="persondivdiv"><h4>Dinner</h4><p>adf</p></div>
-                			<div className="persondivdiv"><h4>Snack</h4><p>No</p></div>
-                			<div className="persondivdiv"><h4>Cook own meals</h4><p>No</p></div>
-                			
-                			<div className="persondivdiv"><h4>Food Allergies</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>Any other health problems?</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>When was your last blood test?</h4><p>gambian</p></div>
-                
-                </div>
-                
-                </div>
-                
-                <div className="maindiv-contents">
-                <h2 className="personal-title"> Delivery information </h2>
-                 <div className="persondiv">
-                			<div className="persondivdiv"><h4>Food Allergies</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>Any other health problems?</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>When was your last blood test?</h4><p>gambian</p></div>
-                			
-                			<div className="persondivdiv"><h4>Food Allergies</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>Any other health problems?</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>When was your last blood test?</h4><p>gambian</p></div>
-                			
-                			<div className="persondivdiv"><h4>Food Allergies</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>Any other health problems?</h4><p>None</p></div>
-                			<div className="persondivdiv"><h4>When was your last blood test?</h4><p>gambian</p></div>
-                			
-                			<div className="persondivdiv"><h4>Food Allergies</h4><p>None</p></div>
-                			
-                
-                </div>
-                
-                </div>
-                
-                </>
-                
-        )
+				<table>
+					<tr className="head">
+						<th>SUFFER FROM</th>
+						<th>RANGE</th>
+						<th>MEDICATION</th>
+					</tr>
+					<tr>
+						<td> <span>cholesterol</span></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><span>Triglycerides</span></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
 
+				<div className="persondiv">
+					<div className="persondivdiv">
+						<h5>Iron deficiency</h5>
+						<p>No</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Vitamin D deficiency</h5>
+						<p>No</p>
+					</div>
+				</div>
+
+				<table>
+					<tr className="head">
+						<th>SUFFER FROM</th>
+						<th>SINCE WHEN</th>
+						<th>TREATMENT</th>
+					</tr>
+					<tr>
+						<td> <span>constipation</span></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><span>bloating</span></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+
+			</div>
+
+			<div className="maindiv-contents">
+				<h2 className="personal-title"> Lifestyle information </h2>
+				<div className="persondiv">
+					<div className="persondivdiv">
+						<h5>Previous Diet Plans</h5>
+						<p>No</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Skip Meals</h5>
+						<p>yes <br /> yes</p>
+						{/* <p>yes</p> */}
+					</div>
+					<div className="persondivdiv">
+						<h5>Regular Breakfast</h5>
+						<p>No</p>
+					</div>
+
+					<div className="persondivdiv">
+						<h5>Snack</h5>
+						<p>No</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Food Cravings</h5>
+						<p>No</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Exercise</h5>
+						<p>No</p>
+					</div>
+
+					<div className="persondivdiv">
+						<h5>Smoking</h5>
+						<p>No</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Coffee</h5>
+						<p>No</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Alcohol intake</h5>
+						<p>No</p>
+					</div>
+
+					<div className="persondivdiv">
+						<h5>Litres of water per day</h5>
+						<p>20</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Breakfast</h5>
+						<p>sdasdf</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Lunch</h5>
+						<p>fsdf</p>
+					</div>
+
+					<div className="persondivdiv">
+						<h5>Dinner</h5>
+						<p>adf</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Snack</h5>
+						<p>No</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Cook own meals</h5>
+						<p>No</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div className="maindiv-contents">
+				<h2 className="personal-title"> Delivery information </h2>
+				<div className="persondiv">
+					<div className="persondivdiv">
+						<h5>City</h5>
+						<p>-</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Area</h5>
+						<p>-</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Street Address</h5>
+						<p>-, -</p>
+					</div>
+
+					<div className="persondivdiv">
+						<h5>House Number</h5>
+						<p>-</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Landmark</h5>
+						<p>-</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Longitude</h5>
+						<p>-</p>
+					</div>
+
+					<div className="persondivdiv">
+						<h5>Latitude</h5>
+						<p>-</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Preferred Delivery Time</h5>
+						<p>-</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Pickup Name</h5>
+						<p>-</p>
+					</div>
+					<div className="persondivdiv">
+						<h5>Pickup Phone</h5>
+						<p>-</p>
+					</div>
+				</div>
+
+			</div>
+		</>
+	)
 }
